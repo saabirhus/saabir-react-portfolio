@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #c1c1c1;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
