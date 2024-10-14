@@ -14,3 +14,28 @@
     text-decoration: underline;
     transform: scale(1.1);
 }
+
+/* Define keyframes for the background color transition */
+@keyframes gradientColors {
+    0% {
+      background-color: #f8fafc; /* Tailwind's gray-50 */
+    }
+    25% {
+      background-color: #a78bfa; /* Tailwind's purple-400 */
+    }
+    50% {
+      background-color: #34d399; /* Tailwind's green-400 */
+    }
+    75% {
+      background-color: #60a5fa; /* Tailwind's blue-400 */
+    }
+    100% {
+      background-color: #f8fafc; /* Back to Tailwind's gray-50 */
+    }
+  }
+  
+  /* Apply the animation */
+  .bg-animate {
+    animation: gradientColors 30s infinite alternate ease-in-out;
+  }
+  

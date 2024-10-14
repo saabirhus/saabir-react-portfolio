@@ -1,5 +1,4 @@
 import React from "react";
-import Photo from './saabir.jpg';
 import '../index.css';
 
 const Header: React.FC = () => {
@@ -8,11 +7,6 @@ const Header: React.FC = () => {
             <div className="container mx-auto flex items-center justify-between">
                 {/* Flex container for image and text */}
                 <div className="flex items-center">
-                    <img
-                        src={Photo}
-                        alt="Profile"
-                        className="w-16 h-16 rounded-full mr-4"
-                    />
                     <div>
                         <h1 className="text-4xl font-bold text-white">Saabir Hussein</h1>
                         <p className="text-xl text-white mt-2">Junior React Developer</p>
