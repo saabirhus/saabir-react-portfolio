@@ -172,6 +172,10 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #8e44ad, #1abc9c);
+  min-height: 100vh;
 }
 
 /*
@@ -543,4 +547,10 @@ video {
 
 [hidden] {
   display: none;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
