@@ -8,9 +8,9 @@ const ContactMe: React.FC = () => {
                 <h2 className="text-3xl font-bold mb-8">Contact Me</h2>
                 <div className="flex justify-center">
                     {/* Centered Contact Form */}
-                    <form action="#" method="POST" className="bg-gray-800 p-6 rounded-lg shadow-lg w-full md:w-1/2">
+                    <form action="#" method="POST" className="bg-gray-600 p-6 rounded-lg shadow-lg w-full md:w-1/2">
                         <div className="mb-4">
-                            <label htmlFor="name" className="block text-gray-400 mb-2">Your Name</label>
+                            <label htmlFor="name" className="block text-purple-300 mb-2">Your Name</label>
                             <input
                                 type="text"
                                 id="name"
@@ -21,7 +21,7 @@ const ContactMe: React.FC = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label htmlFor="email" className="block text-gray-400 mb-2">Your Email</label>
+                            <label htmlFor="email" className="block text-purple-300 mb-2">Your Email</label>
                             <input
                                 type="email"
                                 id="email"
@@ -32,7 +32,7 @@ const ContactMe: React.FC = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label htmlFor="message" className="block text-gray-400 mb-2">Your Message</label>
+                            <label htmlFor="message" className="block text-purple-300 mb-2">Your Message</label>
                             <textarea
                                 id="message"
                                 name="message"

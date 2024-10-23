@@ -15,14 +15,14 @@ const Profile: React.FC = () => {
           />
         </div>
       </div>
-      <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <div className="bg-gray-600 p-4 rounded-lg shadow-lg">
         <h2 className="text-4xl font-bold mb-2 px-5">Saabir Hussein</h2>
         <p className="text-xl mb-2 px-5">Junior React Developer</p>
       </div>
 
       {/* Introduction */}
       <div className="p-1 rounded-lg my-8">
-        <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <div className="bg-gray-600 p-6 rounded-lg shadow-lg">
           <p className="leading-relaxed">
             Aspiring Junior Frontend Developer with a solid foundation in creating responsive,
             accessible, and dynamic web applications. Proficient in modern frontend technologies

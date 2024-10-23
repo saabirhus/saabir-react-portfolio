@@ -4,6 +4,7 @@ import Projects from './components/Projects';
 import ProfileAndSkills from './components/ProfileAndSkills';
 import Footer from './components/Footer';
 import ContactMe from './components/Contact';
+import CV from "./components/CV";
 import "./index.css"
 
 const App: React.FC = () => {
@@ -18,6 +19,9 @@ const App: React.FC = () => {
       </section>
       <section id='contact'>
         <ContactMe /> 
+      </section>
+      <section id='cv'>
+        <CV />
       </section>
       <Footer />
     </div>

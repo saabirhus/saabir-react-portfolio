@@ -3,7 +3,7 @@ import '../index.css';
 
 const Footer: React.FC = () => {
     return (
-        <footer className=" text-white py-6">
+        <footer className=" text-white py-6" style={{ backgroundColor: '#0b0e1f' }}>
             <div className="container mx-auto text-center">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
