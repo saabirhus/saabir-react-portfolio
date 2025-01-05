@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">About Me</h3>
                         <p className="text-gray-400">
-                            Junior Frontend Developer passionate about creating modern, responsive, and dynamic web applications.
+                            Junior Full-Stack Developer passionate about creating modern, responsive, and dynamic web applications.
                         </p>
                     </div>
                     <div>

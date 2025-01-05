@@ -17,16 +17,16 @@ const Profile: React.FC = () => {
       </div>
       <div className="bg-gray-600 p-4 rounded-lg shadow-lg">
         <h2 className="text-4xl font-bold mb-2 px-5">Saabir Hussein</h2>
-        <p className="text-xl mb-2 px-5">Junior React Developer</p>
+        <p className="text-xl mb-2 px-5">Junior Full-Stack Developer</p>
       </div>
 
       {/* Introduction */}
       <div className="p-1 rounded-lg my-8">
         <div className="bg-gray-600 p-6 rounded-lg shadow-lg">
           <p className="leading-relaxed">
-            Aspiring Junior Frontend Developer with a solid foundation in creating responsive,
+            Aspiring Junior Full-Stack Developer with a solid foundation in creating responsive,
             accessible, and dynamic web applications. Proficient in modern frontend technologies
-            like React, JavaScript, and CSS. Eager to learn new technologies, improve skills, and
+            like React, JavaScript, and Redux. Eager to learn new technologies, improve skills, and
             take on challenging projects to contribute to building exceptional user experiences.
           </p>
         </div>
